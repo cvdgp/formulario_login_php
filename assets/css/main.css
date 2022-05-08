@@ -1,14 +1,10 @@
 body{
     background: #333;
 }
-header{
-    width: 80vw;
-    height: 10vh;
-}
 main{
 
     width: 95vw ;
-    height: 70vh;
+    height: 90vh;
     margin-left: auto;
     margin-right: auto;
 
@@ -16,29 +12,22 @@ main{
 
     border: 15px solid #555;
 }
-.header{
-
-    background-color: #444499c1;
-    margin: 10px auto;
-    width: 95vw;
-
-
+main h1 {
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: ghostwhite;
+    font-size: 3em;
 }
-.header h1{
-    width: 50%;
-    margin: 10px auto;
-    padding-top: 10px;
-    font-size: 5em;
 
-}
 .form_log{
 
     width: 30%;
     height: 350px;
-    margin: 150px auto;
+    margin: 10px auto;
     background: #111111bd;
     color: aquamarine;
-    font-size: 2.5em;
+    font-size: 2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border: 15px solid #5555558e;
     display: grid;

@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-    <header class="header">
-        <h1>Formulario de acceso</h1>
-    </header>
+    
     <main>
+        <header class="header">
+            <h1>Formulario de acceso</h1>
+        </header>
         <form action="assets/php/conectionbbdd.php" method="post" class="form_log">
             <label for="inp_User"> User</label>
             <input type="text" name="inp_User" id="inp_User">
