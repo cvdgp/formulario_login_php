@@ -1,0 +1,59 @@
+body{
+    background: #333;
+}
+header{
+    width: 80vw;
+    height: 10vh;
+}
+main{
+
+    width: 95vw ;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: url("../img/fondo_formulario_2000x1333.jpg");
+
+    border: 15px solid #555;
+}
+.header{
+
+    background-color: #444499c1;
+    margin: 10px auto;
+    width: 95vw;
+
+
+}
+.header h1{
+    width: 50%;
+    margin: 10px auto;
+    padding-top: 10px;
+    font-size: 5em;
+
+}
+.form_log{
+
+    width: 30%;
+    height: 350px;
+    margin: 150px auto;
+    background: #111111bd;
+    color: aquamarine;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 15px solid #5555558e;
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-content:space-around;
+    justify-content: space-around;
+    
+
+}
+
+.form_log input{
+
+    font-size: 1.3em;
+}
+.form_log input[type="submit"]{
+    font-size: 0.8em;
+}
+
